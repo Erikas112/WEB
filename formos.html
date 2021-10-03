@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <input type="button" value="Ok">
+<input type="text">
+<input type="checkbox">
+<input type="color">
+<input type="radio"> -->
+
+    <h2>Prisijungimo forma</h2>
+    <form action="formos.html" method="POST">
+
+        <div>
+            <label for="username">Prisijungimo vardas</label>
+            <input required type="text" id="username" name="uesename" autocomplete="off">
+        </div>
+
+        <div>
+            <label for="password">Slaptazodis</label>
+            <input type="password" id="password" name="password" autocomplete="off">
+        </div>
+
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+
+    <fieldset>
+        <legend>Prisijungimas</legend>
+        <table>
+            <tr>
+                <td> <label for="username">Prisijungimo vardas </label>
+                </td>
+                <td> <input type="text" id="username" name="uesename" </td>
+            </tr>
+            <tr>
+                <td> <label for="password">Slaptazodis</label>
+                </td>
+                <td> <input type="password" id="password" name="password" autocomplete="off">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td><input type="submit"></td>
+            </tr>
+    </fieldset>
+
+    <div>
+        <label for="">Pasirinkite megstama spalva</label>
+        <input type="radio" name="color"> Melyna
+        <input type="radio" name="color"> Zalia
+        <input type="radio" name="color"> Raudona
+
+    </div>
+
+    <div>
+        <label for="">Pasirinkite lyti</label>
+        <select name="" id="">
+            <option value="">Vyras</option>
+            <option value="">Moteris</option>
+        </select>
+
+    </div>
+
+    <div>
+        <label for="">Parasikyte komentara</label>
+        <textarea name="" id="" cols="30" rows="10" placeholder="parasikyte komentara"></textarea>
+    </div>
+
+
+</body>
+
+</html>
