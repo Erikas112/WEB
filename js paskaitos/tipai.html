@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <input type="text" id="name" value="Jonas">
+    <input type="text" id="surname" value="Jonaitis">
+
+
+    <script>
+
+
+        // skaiciai
+        let firstnumber = 5.2;
+        let secondnumber = 10;
+        console.log(firstnumber + secondnumber);
+
+        let firstnumber1 = "5.2";
+        let secondnumber1 = 10;
+        console.log(Number(firstnumber1) + secondnumber1);
+
+        //tekstas
+
+        let name = "Jonas";
+        let surname = "Jonaitis";
+
+        console.log(name + " " + surname);
+
+        let connected = name.concat(" ", surname);
+        console.log(connected);
+
+        // indexOf
+        let text = "Laba diena grazi diena";
+        let position = text.indexOf("diena"); // kai grazinamas -1 reiskias nerastas tekstas
+        console.log(position);
+
+        let newText = text.substring(0, 10)
+        console.log(newText);
+
+        let words = text.split(" ");
+        console.log(words);
+
+        console.log(words[1]);
+
+        // boolean
+
+        let flag = true;
+        if (flag) {
+            console.log("flag is true");
+        }
+        else {
+            console.log("flag is false");
+        }
+        let a = 5;
+        let b = 1;
+        let flag1 = 5 < 2;
+
+        if (a>b) {
+            console.log("flag is true");
+        }
+
+        else {
+            console.log("flag is false");
+        }
+
+       // while(flag1){
+       //     console.log("flag is true");
+       // }
+
+        //for ciklas
+        for(let index = 0; index < 5; index++){
+            console.log(index);
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>

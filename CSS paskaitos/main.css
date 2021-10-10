@@ -1,0 +1,67 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.child {
+    width: 25%;
+
+}
+
+div.content {
+    min-height: 200px;
+    background-color: rgb(243, 199, 191);
+    margin: 5px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 70%;
+}
+
+@media screen and (max-width:600px) {
+    div.child {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:900px) {
+    div.child {
+        width: 33%;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    background-image: url("fonospalva.jpg");
+    background-size: cover;
+}
+
+header h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+footer address {
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20pt;
+}
+
+footer {
+    background-color: black;
+}
